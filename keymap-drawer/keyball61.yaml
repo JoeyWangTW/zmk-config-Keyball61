@@ -59,9 +59,9 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: MOUSE}
   - SCROLL
   - {t: '$$mdi:keyboard-return$$', h: SYM}
-  - {t: '$$mdi:backspace$$', h: MOUSE}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '=', s: +}
-  - {t: ']', s: '}'}
+  - {t: ']', h: MOUSE, s: '}'}
   SYM:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
@@ -183,9 +183,9 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   SCROLL:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
