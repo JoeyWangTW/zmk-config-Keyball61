@@ -69,8 +69,13 @@
 };
 
 
-/* Override nice_view_adapter SPI pins for right side.
- * Left uses P0.20 (SCL) but right side display is wired to P0.08. */
+/* Disable i2c0 since spi0 shares the same hardware peripheral */
+&pro_micro_i2c {
+    status = "disabled";
+};
+
+/* Define nice_view_spi manually (replacing nice_view_adapter) because
+ * the right side display uses P0.08 for SCK, not P0.20 like the left. */
 &pinctrl {
     spi0_default: spi0_default {
         group1 {
@@ -88,6 +93,14 @@
             low-power-enable;
         };
     };
+};
+
+nice_view_spi: &spi0 {
+    compatible = "nordic,nrf-spim";
+    pinctrl-0 = <&spi0_default>;
+    pinctrl-1 = <&spi0_sleep>;
+    pinctrl-names = "default", "sleep";
+    cs-gpios = <&pro_micro 1 GPIO_ACTIVE_HIGH>;
 };
 
 / {
