@@ -61,7 +61,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: SYM}
   - $$mdi:keyboard-space$$
   - {t: '=', h: SNIPE, s: +}
-  - {t: ']', h: MOUSE, s: '}'}
+  - {t: ']', h: SCROLL, s: '}'}
   SYM:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
@@ -185,7 +185,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   SCROLL:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -247,7 +247,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   SNIPE:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
