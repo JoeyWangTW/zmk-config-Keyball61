@@ -60,7 +60,7 @@ layers:
   - SCROLL
   - {t: '$$mdi:keyboard-return$$', h: SYM}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '=', s: +}
+  - {t: '=', h: SCROLL, s: +}
   - {t: ']', h: MOUSE, s: '}'}
   SYM:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -246,7 +246,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   SNIPE:
   - {t: '$$mdi:transfer$$', type: trans}
