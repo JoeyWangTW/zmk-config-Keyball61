@@ -84,6 +84,7 @@
         };
 
         Vibe {
+            label = "VIBE";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans             &trans             &trans             &trans             &trans              &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans             &trans             &trans             &trans             &trans              &trans
