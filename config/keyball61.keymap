@@ -1,5 +1,3 @@
-#define GRID(n) LC(LA(LG(n)))
-
 #define DEFAULT 0
 #define SYM     1
 #define FUN     2
@@ -89,8 +87,8 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans             &trans             &trans             &trans             &trans              &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans             &trans             &trans             &trans             &trans              &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &kp GRID(N1)       &kp GRID(N2)       &kp GRID(N3)       &kp GRID(N4)       &kp GRID(N0)        &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp GRID(N5)       &kp GRID(N6)       &kp GRID(N7)       &kp GRID(N8)       &kp GRID(N9)        &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &kp LC(LA(LG(N1)))  &kp LC(LA(LG(N2)))  &kp LC(LA(LG(N3)))  &kp LC(LA(LG(N4)))  &kp LC(LA(LG(N0)))  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(LA(LG(N5)))  &kp LC(LA(LG(N6)))  &kp LC(LA(LG(N7)))  &kp LC(LA(LG(N8)))  &kp LC(LA(LG(N9)))  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                                                      &trans              &trans
             >;
         };
