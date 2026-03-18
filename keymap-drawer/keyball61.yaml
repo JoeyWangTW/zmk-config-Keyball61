@@ -145,9 +145,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: 'Gui+[', s: 'Gui+{'}
   - $$mdi:pan-down$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: 'Gui+]', s: 'Gui+}'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
