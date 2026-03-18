@@ -83,14 +83,14 @@
             >;
         };
 
-        Vibe {
+        vibe {
             label = "VIBE";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans             &trans             &trans             &trans             &trans              &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans             &trans             &trans             &trans             &trans              &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans              &trans              &trans              &trans              &trans              &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans              &trans              &trans              &trans              &trans              &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &kp LC(LA(LG(N1)))  &kp LC(LA(LG(N2)))  &kp LC(LA(LG(N3)))  &kp LC(LA(LG(N4)))  &kp LC(LA(LG(N0)))  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(LA(LG(N5)))  &kp LC(LA(LG(N6)))  &kp LC(LA(LG(N7)))  &kp LC(LA(LG(N8)))  &kp LC(LA(LG(N9)))  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                                                      &trans              &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                                                          &trans              &trans
             >;
         };
     };
