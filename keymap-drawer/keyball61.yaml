@@ -341,6 +341,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Ctl+Alt+Gui+1, s: Ctl+Alt+Gui+!}
+  - {t: Ctl+Alt+Gui+2, s: Ctl+Alt+Gui+@}
+  - {t: Ctl+Alt+Gui+3, s: Ctl+Alt+Gui+#}
+  - {t: Ctl+Alt+Gui+4, s: Ctl+Alt+Gui+$}
+  - {t: Ctl+Alt+Gui+0, s: Ctl+Alt+Gui+)}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -350,16 +355,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Ctl+Alt+Gui+5, s: Ctl+Alt+Gui+%}
+  - {t: Ctl+Alt+Gui+6, s: Ctl+Alt+Gui+^}
+  - {t: Ctl+Alt+Gui+7, s: Ctl+Alt+Gui+&}
+  - {t: Ctl+Alt+Gui+8, s: Ctl+Alt+Gui+*}
+  - {t: Ctl+Alt+Gui+9, s: Ctl+Alt+Gui+(}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
